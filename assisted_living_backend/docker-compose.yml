@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  anomaly-detection-backend:
+    image: anomaly-detection-backend
+    container_name: anomaly-detection-backend
+    ports:
+      - "8080:8080"

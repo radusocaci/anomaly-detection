@@ -1,0 +1,53 @@
+{
+  "name": "react-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.3.1",
+    "material-table": "^1.69.1",
+    "moment": "^2.23.0",
+    "papaparse": "^5.3.1",
+    "prop-types": "^15.6.2",
+    "randomcolor": "^0.5.4",
+    "react": "^16.8.0",
+    "react-alert": "^7.0.3",
+    "react-alert-template-mui": "^1.0.7",
+    "react-avatar": "^3.9.7",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.8.0",
+    "react-google-charts": "^3.0.15",
+    "react-moment": "^0.8.4",
+    "react-papaparse": "^3.16.0",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "2.1.3",
+    "react-select": "^4.3.1",
+    "react-table": "^6.10.0",
+    "reactstrap": "^7.0.2",
+    "recharts": "latest",
+    "serve": "^11.3.2",
+    "sockjs-client": "^1.4.0",
+    "stompjs": "^2.3.3"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

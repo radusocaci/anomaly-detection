@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  anomaly-detection-flask-server:
+    image: anomaly-detection-flask-server
+    container_name: anomaly-detection-flask-server
+    ports:
+      - "5000:5000"
